@@ -1,7 +1,7 @@
 {
   "name": "youtube_proj",
   "version": "1.0.0",
-  "main": "index.html",
+  
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
