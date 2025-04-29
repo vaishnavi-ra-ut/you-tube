@@ -1,0 +1,38 @@
+{
+  "name": "youtube_proj",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest",
+    "lint": "eslint .",
+    "format": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaishnavi-ra-ut/YoutubeProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vaishnavi-ra-ut/YoutubeProject/issues"
+  },
+  "homepage": "https://github.com/vaishnavi-ra-ut/YoutubeProject#readme",
+  "description": "",
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.5.0",
+    "parcel": "^2.13.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-redux": "^9.2.0",
+    "tailwind-scrollbar-hide": "^2.0.0"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.26.3",
+    "postcss": "^8.5.1",
+    "process": "^0.11.10",
+    "react-router-dom": "^7.1.2",
+    "tailwindcss": "^3.4.17"
+  }
+}
